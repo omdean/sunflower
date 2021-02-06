@@ -12,13 +12,13 @@ export default class Loader {
     this.channel = theChannel;
   }
 
-  load() {
+  excute(): any {
     if (this.channel === SourceChannel.Local) {
-      this.loadFromLocalFile();
+      return this.loadFromLocalFile();
     }
   }
 
-  private loadFromLocalFile() {
-
+  private loadFromLocalFile() : Object {
+    return {};
   }
 }
