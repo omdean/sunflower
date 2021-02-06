@@ -14,3 +14,7 @@ export enum Classification {
   Sentence = 'sentence'
 }
 
+export enum SourceChannel {
+  Local = 'local'
+}
+
